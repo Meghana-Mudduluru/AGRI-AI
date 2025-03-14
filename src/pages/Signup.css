@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Image */
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/homepage.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+/* Signup Form */
+.signup-container {
+    width: 600px;
+    padding: 40px;
+    background: white;
+    border: 4px solid #007BFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-container h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.signup-container label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-container input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.signup-container button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.signup-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+}
+/* Full page background */
+.signup-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/agriai.webp') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* Transparent overlay */
+.signup-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    z-index: 0;
+}
+
+/* Signup box styling */
+.signup-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Input field styling */
+.signup-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.signup-container button {
+    width: 100%;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.signup-container button:hover {
+    background: darkblue;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Footer adjustments */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background: #222;
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+}
+/* Full-page background fix */
+.signup-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/agriai.webp') no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* Dark overlay for better readability */
+.signup-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity if needed */
+    z-index: 0;
+}
+
+/* Ensure signup box is above the overlay */
+.signup-container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent for better readability */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+

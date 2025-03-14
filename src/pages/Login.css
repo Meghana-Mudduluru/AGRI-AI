@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("/topimage.jpeg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.6); /* Slightly dark background for visibility */
+    padding: 5px 0;
+}
+.login-container {
+    border: 3px solid blue; /* Custom blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

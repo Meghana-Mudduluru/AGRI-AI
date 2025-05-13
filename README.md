@@ -14,23 +14,16 @@ Agri-AI is an intelligent farming assistant designed to support small-scale farm
 To empower small-scale farmers with AI-based insights and help them:
 
     Increase crop yield
-
     Reduce waste
-    
     Improve profitability
-    
     Adopt sustainable practices
 
 
 🛠️ Tech Stack
 
     Frontend: HTML, CSS, ReactJS
-    
     Backend: Node.js, Express.js
-    
     Database: MongoDB
-    
     ML Model: Python
-    
     IDE: VS Code
 

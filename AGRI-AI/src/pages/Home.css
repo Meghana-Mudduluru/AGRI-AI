@@ -1,0 +1,42 @@
+body {
+    background-image: url('/homepage.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar {
+    background-color: #343a40 !important;
+}
+.hero-text {
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+.btn-custom {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-box {
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-box:hover {
+    background-color: blue !important;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

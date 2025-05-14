@@ -1,0 +1,83 @@
+/* Reset and base setup */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Fullscreen background wrapper */
+  .crop-body {
+    background: url('/croppredict.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    min-width: 210vh;
+    min-height: 100vh; /* ✅ Allows background to grow with content */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Start at top instead of center */
+    padding-top: 60px; /* ✅ Optional: reduce from 520px to something practical */
+    box-sizing: border-box;
+  }
+  
+.prediction-result {
+  color: red;  /* ✅ Make text red */
+  font-size: 1.2rem; /* Slightly larger font */
+  font-weight: bold; /* Make it bold */
+  margin-top: 10px; /* Add space above */
+}
+
+
+  
+  /* Form container styling */
+  .form-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 500px;
+    color: #fff;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Form labels */
+  .form-container label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  /* Inputs and selects */
+  .form-container input,
+  .form-container select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .predict-btn {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .predict-btn:hover {
+    background-color: #218838;
+  }
+  
